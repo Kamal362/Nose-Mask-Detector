@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nose Mask Detector</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/live.css">
+</head>
+<body>
+    <div class="container">
+        <div class="button">
+            <button id="home"><a href="<%= home %> ">Go Home </a></button>
+            <button id="upload"><a href="<%= upload %> ">upload Image </a></button>
+        </div>
+        <div class="live-box">
+            <div id="gl">Go Live</div>
+            <div id="webcam-container"></div>
+            <div id="label-container"></div>
+            <!-- <button type="button" onload="init()">Launch a Camera and Predict</button> -->
+        </div>
+    </div>
+    <!-- Links for the libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script src="./script/face-api.min.js"></script>
+    <script type="text/javascript" src="./script/live.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+/* === Google Font Import - Poppins === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height: 100vh;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+}
+
+#header{
+  width: 100%;
+  height: 10%;
+  color: #fff;
+  background-color: #7d2ae8;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 15px;
+
+}
+
+#footer{
+  width: 100%;
+  height: 10%;
+  color: #fff;
+  background-color: #7d2ae8;
+  text-align: center;
+  font-weight: bolder;
+  position: absolute;
+  padding-top: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.cards{
+  width: 90%;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#card{
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 10px;
+}
+
+/* .card-content{
+  z-index: 100;
+} */
+
+#card-head{
+  height: 40%;
+  width: 100%;
+  background: #7d2ae8;
+  margin-bottom: 10%;
+  border-radius: 20px 20px 110px 110px;
+}
+.image img{
+  position: relative;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  margin: 15% auto; 
+  border: 3px solid #7d2ae8;
+  background-size: cover;
+  top: -20px;
+}
+
+.media-icons{
+  align-items: center;
+}
+
+.media-icons i{
+  color: #7d2ae8;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#card .media-icons i:hover{
+  opacity: 1;
+}
+
+#card .button{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#card .button button{
+  background: #7d2ae8;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: #fff
+}
+
+.button button{
+  background: #7d2ae8;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: #fff
+} 
